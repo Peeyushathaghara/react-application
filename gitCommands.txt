@@ -1,0 +1,20 @@
+git config --global user.email "peeyush132@gmail.com"
+
+git config --global user.name "Peeyush"
+
+git init // initiales git converts local project to git project.
+
+git status
+
+git add [filename] || -A //adds file to your git repository
+
+git commit -m "msg"
+
+git remote add origin [repoName] // links local directory to git. It does not commits just links.
+
+git push origin master // this command pushes the code to github for first time.
+
+git clone repoName //same as svn checkout
+
+
+
